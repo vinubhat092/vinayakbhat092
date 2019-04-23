@@ -1,11 +1,10 @@
 #include<stdio.h>
-int getinput()
+int main() 
 {
-int a;
-printf(enter a number);
-scanf(%d,&a);
-}
-int add()
-int b;
-c=a+b;
+float a, add;
+printf("select a number") ;
+scanf("%d", &a) ;
+c=1+a;
+printf("add 1 to a number, add) ;
+return() ;
 }
