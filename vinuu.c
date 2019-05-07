@@ -1,12 +1,23 @@
 #include<stdio.h>
-void input(int*x)
-{
-scanf("%d,x);
-return;
+int input()
+{    int a;
+     scanf("%d",@a);
+     return a;
 }
-void sum(int*a,int*b,int*s);
-{
-*s=*a+*b;
-return;
+int compute(int a)
+{    a=a+1;
+     return a;
 }
-void output(int s)
+void output(int x)
+{    printf("%d",x);
+     return;
+}
+void main()
+{
+     int a,sum;
+     printf("read a\n");
+     a=input();
+     sum=compute(a);
+     output(sum);
+     return;
+}
