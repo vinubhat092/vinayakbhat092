@@ -1,0 +1,5 @@
+#include<stdio.h>
+void add(void *a,void *b)
+{
+printf("enter two numbures *a,*b);
+}
